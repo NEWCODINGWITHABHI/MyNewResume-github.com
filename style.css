@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:wght@700&family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    /* max-width: 1000px; */
+    min-height: 1000px;
+    background-color: white;
+    margin: 50px;
+    /* margin-right: 200px; */
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+     
+}
+.container .left{
+    
+    position: relative;
+    background-color: #003147;
+    padding: 40px;
+
+}
+.profile-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom:1px solid rgba(255,255,255,0.4);
+}
+.profile-text .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.profile-text .imgBx img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile-text p{
+    padding-top: 25px;
+    color: white;
+    font-family: 'poppins',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    /* line-height: 2.5em; */
+
+    
+}
+.mail{
+    display: flex;
+
+}
+.git{
+    display: flex;
+ 
+}
+.contact-info{
+   padding-top: 40px;
+}
+.contact-info h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+.contact-info ul{
+    position: relative;
+}
+.contact-info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact-info ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size:18px ;
+}
+.contact-info ul li .icon i {
+   
+    color: #5bced8 !important;
+}
+.contact-info ul li span{
+    color: white;
+padding: 0 10px;
+/* font-size: 20px; */
+}
+.speciality{
+    margin-top: 30px ;
+    
+    position: relative;
+    /* background-color: aqua; */
+}
+.speciality h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.speciality ul li{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.container .right{
+    position: relative;
+    background-color:rgb(255, 255, 255);
+    padding: 40px;
+
+}
+.education{
+    position: relative;
+    /* display: flex; */
+  margin: 30px;
+  margin-left: 30px;
+
+}
+.education-heading{
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.education .education-heading img{
+    background-color: #5bced8;
+    width: 50px;
+    border-radius: 30px;
+    border: 1px solid rgb(7, 50, 103);
+    
+}
+.education-heading h2{
+    margin-left: 20px;
+}
+.education ul{
+    display: flex;
+    margin: 20px;
+}
+.education .ul-div .matric{
+padding-top: 20px;
+}
+.education .ul-div li h3,p{
+
+    width: 400px;
+    padding: 2px 0;
+    
+}
+.education .intermediate{
+    margin-left: 20px;
+    width: 200px;
+    /* overflow: hidden; */
+
+}
+.education .intermediate p{
+    width: 200px;
+    padding: 2px;
+}
+.skills{
+    margin-top:30px;
+    margin-left: 30px;
+}
+.skills .skills-heading{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.skills .skills-heading img{
+     width: 50px;
+     border-radius: 50px;
+     
+}
+.skills .skills-heading h2{
+    margin-left: 20px;
+}
+.skills ul{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.skills ul li{
+    padding-top: 5px;
+}
+.project{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.project-heading{
+    display: flex;
+    align-items: center;
+    
+}
+.project-heading h2{
+    margin-left: 20px;
+}
+.project-heading img{
+    width:50px ;
+}
+.project ul{
+    margin: 10px 0;
+    margin-left: 30px;
+}
+.project ul li{
+    padding-top: 5px;
+}
